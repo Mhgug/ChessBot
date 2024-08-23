@@ -19,13 +19,27 @@ class Panel extends JPanel {
 
         g2d.setPaint(new Color(0, 0, 0));
         for(int i = 0; i < 8; i++) {
+
             for(int j = 0; j < 8; j++) {
                 g2d.fillRect(x, y, 50, 50);
-                x = 100*j;
+                x = 100 * j;
             }
-            y=50*i;
+    
+            y = 100 * i;
+
         }
-        //g2d.setPaint(new Color(255, 255, 255));
-        //g2d.fillRect(50,0,50,50);
+
+        x = 50;
+        y = 0;
+
+        for(int i = 0; i < 8; i++) {
+
+            y = 100 * i + 50;
+            
+            for(int j = 0; j < 8; j++) {
+                g2d.fillRect(x, y, 50, 50);
+                x = 100 * j + 50;
+            }
+        }
     }
 }
