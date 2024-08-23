@@ -1,3 +1,9 @@
+/*
+ * Panel.java
+ * Display of the game
+ * 8/22/2024 / Can Eryigit
+ */
+
 import java.awt.*;
 import javax.swing.*;
 
