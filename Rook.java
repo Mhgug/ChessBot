@@ -1,3 +1,9 @@
+/*
+ * Rook.java
+ * File for the rook class
+ * 8/24/2024 / Can Eryigit
+ */
+
 public class Rook extends Piece {
     boolean white = false;
     boolean captured = false;
@@ -23,6 +29,10 @@ public class Rook extends Piece {
     }
 
     public boolean canMove(Board board, Spot start, Spot end) {
+        if (end.getPiece().isWhite() == this.isWhite()) { 
+            return false; 
+        }
+        
         return ((start.getY() == end.getY()) || (start.getX() == end.getX()));
     }
 }

@@ -1,7 +1,7 @@
 /*
  * Spot.java
  * File for spot class
- * 8/23/2024 / Can Eryigit
+ * 8/24/2024 / Can Eryigit
  */
 
  public class Spot {
