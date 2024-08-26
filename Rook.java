@@ -13,6 +13,14 @@ public class Rook extends Piece {
         super(white);
     }
 
+    public String isApparence() {
+        return this.apparence;
+    }
+
+    public void setApparence(String apparence) {
+        this.apparence = apparence;
+    }
+
     public boolean isWhite() {
         return this.white;
     }
