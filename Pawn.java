@@ -8,6 +8,7 @@
     boolean white = false;
     boolean captured = false;
     boolean doubleMove = true;
+    String apparence = "p";
 
     public Pawn(boolean white) {
         super(white);

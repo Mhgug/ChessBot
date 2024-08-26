@@ -7,6 +7,7 @@
 public abstract class Piece {
     private boolean captured = false;
     private boolean white = false;
+    public String apperance = "p";
 
     public Piece(boolean white) {
         this.white = white;

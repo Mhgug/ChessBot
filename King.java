@@ -5,7 +5,8 @@
  */
 
 public class King extends Piece {
-    private boolean castlingDone = false; 
+    private boolean castlingDone = false;
+    String apparence = "k";
   
     public King(boolean white) { 
         super(white); 

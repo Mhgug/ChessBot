@@ -7,6 +7,7 @@
 public class Rook extends Piece {
     boolean white = false;
     boolean captured = false;
+    String apparence = "r";
 
     public Rook(boolean white) {
         super(white);

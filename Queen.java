@@ -7,6 +7,7 @@
 public class Queen extends Piece {
     boolean white = false;
     boolean captured = false;
+    String apparence = "q";
 
     public Queen(boolean white) {
         super(white);

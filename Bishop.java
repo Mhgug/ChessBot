@@ -7,6 +7,7 @@
  public class Bishop extends Piece {
     boolean white = false;
     boolean captured = false;
+    String apparence = "b";
 
     public Bishop(boolean white) {
         super(white);

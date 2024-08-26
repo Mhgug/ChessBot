@@ -7,6 +7,7 @@
 public class Knight extends Piece {
     private boolean captured = false;
     private boolean white = false;
+    String apparence = "n";
 
     public Knight(boolean white) {
         super(white);

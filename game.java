@@ -10,5 +10,7 @@ class game {
 
         Board board = new Board();
         board.resetBoard();
+
+        
     }
 }
