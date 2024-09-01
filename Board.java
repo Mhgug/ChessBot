@@ -1,14 +1,14 @@
 /*
  * Board.java
  * File for the board
- * 8/25/2024
+ * 8/31/2024
  */
 
 public class Board {
-    Spot[][] boxes; 
+    Spot[][] boxes = new Spot[8][8]; 
   
     public Board() { 
-        this.resetBoard(); 
+        this.resetBoard();
     } 
   
     public Spot getBox(int x, int y) throws Exception { 
