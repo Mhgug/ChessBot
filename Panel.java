@@ -14,7 +14,7 @@ class Panel extends JPanel {
         this.setPreferredSize(new Dimension(400, 400));
     }
 
-    public void boardRepresent(Graphics g) {
+    public void paint(Graphics g) {
         Graphics2D g2d = (Graphics2D) g;
     
         int x = 0;
@@ -31,7 +31,7 @@ class Panel extends JPanel {
             y = 100 * i;
     
         }
-    
+        
         x = 50;
         y = 0;
     
