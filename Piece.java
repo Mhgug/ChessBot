@@ -1,7 +1,7 @@
 /*
  * Piece.java
  * File for Piece class
- * 8/31/2023 / Can Eryigit
+ * 9/14/2023 / Can Eryigit
  */
 
 public abstract class Piece {

@@ -1,7 +1,7 @@
 /*
  * Spot.java
  * File for spot class
- * 8/31/2024 / Can Eryigit
+ * 9/14/2024 / Can Eryigit
  */
 
  public class Spot {
@@ -17,8 +17,8 @@
     } 
   
     public Piece getPiece() 
-    { 
-        return this.piece; 
+    {        
+        return this.piece;
     } 
   
     public void setPiece(Piece p) 

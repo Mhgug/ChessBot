@@ -1,7 +1,7 @@
 /*
  * Frame.java
  * file for the frame
- * 8/31/2024 / Can Eryigit 
+ * 9/14//2024 / Can Eryigit 
  */
 
 import javax.swing.*;
@@ -18,6 +18,7 @@ class Frame extends JFrame{
         this.add(panel);
         this.pack();
         this.setLocationRelativeTo(null);
+        this.setResizable(false);
         this.setVisible(true);
     }
 }
