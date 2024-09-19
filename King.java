@@ -1,7 +1,7 @@
 /*
  * King.java
  * File for the king
- * 8/24/2024 / Can Eryigit
+ * 9/14/2024 / Can Eryigit
  */
 
 public class King extends Piece {

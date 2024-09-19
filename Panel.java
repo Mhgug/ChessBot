@@ -10,7 +10,7 @@ import javax.swing.*;
 class Panel extends JPanel {
     Board board = new Board();
 
-    Panel(){
+    Panel() {
         this.setPreferredSize(new Dimension(400, 400));
     }
 

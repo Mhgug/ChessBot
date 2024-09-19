@@ -1,7 +1,7 @@
 /*
  * Knight.java
  * File for Knight class
- * 8/24/2024 / Can Eryigit
+ * 9/14/2024 / Can Eryigit
  */
 
 public class Knight extends Piece {

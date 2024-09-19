@@ -1,7 +1,7 @@
 /*
  * Rook.java
  * File for the rook class
- * 8/24/2024 / Can Eryigit
+  * 9/14/2024 / Can Eryigit
  */
 
 public class Rook extends Piece {

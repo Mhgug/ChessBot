@@ -1,7 +1,7 @@
 /*
  * Pawn.java
  * File for the Pawn class
- * 8/24/2024 / Can Eryigit
+ * 9/14/2024 / Can Eryigit
  */
 
  public class Pawn extends Piece {
