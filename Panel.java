@@ -1,7 +1,7 @@
 /*
  * Panel.java
  * Display of the game
- * 9/14/2024 / Can Eryigit
+ * 9/21/2024 / Can Eryigit
  */
 
 import java.awt.*;
@@ -32,6 +32,7 @@ class Panel extends JPanel {
                 x = 100 * j;
             }
         }
+
         g2d.setColor(Color.GRAY);
         for(int i = 0; i < 8; i++) {
             for(int j = 0; j < 8; j++) {

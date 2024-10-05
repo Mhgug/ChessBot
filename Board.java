@@ -1,7 +1,7 @@
 /*
  * Board.java
  * File for the board
- * 9/7/2024
+ * 9/7/2024Box
  */
 
 public class Board {
