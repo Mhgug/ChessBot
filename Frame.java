@@ -16,9 +16,6 @@ class Frame extends JFrame{
 
         panel.addMouseListener(new MouseAdapter() { 
             public void mousePressed(MouseEvent e) {
-                if() {
-
-                }
             }
         });
 
